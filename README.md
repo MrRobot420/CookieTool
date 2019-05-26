@@ -69,47 +69,47 @@
 
 [D:] Im Ordner befinden sich 8 Skripte, die das Analyse-Tool ergeben:
 
-      + start_gui.py		     # Startet das Programm.
+      + start_gui.py               # Startet das Programm.
 
-      + backend.py 		          # Das Backend (Zuständig für Dateizugriffe und -änderungen).
+      + backend.py            # Das Backend (Zuständig für Dateizugriffe und -änderungen).
 
-      + ui_menu.py		          # GUI des Hauptmenüs.
-      + ui_menu_setting.py	     # GUI des Einstellungsmenüs.	(Pfad zur Datei einstellen)
-      + ui_menu_info.py		     # GUI des 1. Untermenüs.	(Generelle Informationen erhalten)
-      + ui_menu_data.py		     # GUI des 2. Untermenüs.	(Datentranformation und -visual.)
-      + ui_menu_delete.py	     # GUI des 3. Untermenüs.	(- Nicht implementiert -)
+      + ui_menu.py            # GUI des Hauptmenüs.
+      + ui_menu_setting.py              # GUI des Einstellungsmenüs.	(Pfad zur Datei einstellen)
+      + ui_menu_info.py		# GUI des 1. Untermenüs.	(Generelle Informationen erhalten)
+      + ui_menu_data.py		# GUI des 2. Untermenüs.	(Datentranformation und -visual.)
+      + ui_menu_delete.py               # GUI des 3. Untermenüs.	(- Nicht implementiert -)
 
-      + ui_group.py		          # Ermöglicht gruppierte Suche nach ID, VALUE und NAME 
+      + ui_group.py           # Ermöglicht gruppierte Suche nach ID, VALUE und NAME 
 
-      + ui_save.py		          # Ermöglicht das Transformieren von SQLITE-Dateien in das CSV-Format.
-      + ui_report.py		     # Ermöglicht die Erstellung von "Reports" im CSV-Format.
-      + ui_visual.py		     # Schnittstelle für die Visualisierung.
+      + ui_save.py            # Ermöglicht das Transformieren von SQLITE-Dateien in das CSV-Format.
+      + ui_report.py               # Ermöglicht die Erstellung von "Reports" im CSV-Format.
+      + ui_visual.py               # Schnittstelle für die Visualisierung.
       + visualization.py	          # Ermöglicht die Erstellung der Diagramme.
 
-      + ui_existing.py		     # Listet existierende Dateien auf. (Available Files & Available Reports)
+      + ui_existing.py             # Listet existierende Dateien auf. (Available Files & Available Reports)
 
       + (ui_compare.py)            # (- Hat keine Funktionalität -) -> Wurde verworfen.
       
       
 [E:] In the folder are 8 scripts that add to the analysis-tool:
 
-      + start_gui.py		     # Starts the program.
+      + start_gui.py               # Starts the program.
 
-      + backend.py 		          # The backend (for data-access and -changes).
+      + backend.py            # The backend (for data-access and -changes).
 
-      + ui_menu.py		          # GUI of the main-menu.
-      + ui_menu_setting.py	     # GUI of the settings-menu.	(set the path to a file)
-      + ui_menu_info.py		     # GUI of the 1. sub-menu.	(get general informations)
-      + ui_menu_data.py		     # GUI of the 2. sub-menu.	(datatranformation and -visual.)
-      + ui_menu_delete.py	     # GUI of the 3. sub-menu.	(- not implemented -)
+      + ui_menu.py            # GUI of the main-menu.
+      + ui_menu_setting.py              # GUI of the settings-menu.	(set the path to a file)
+      + ui_menu_info.py            # GUI of the 1. sub-menu.	(get general informations)
+      + ui_menu_data.py            # GUI of the 2. sub-menu.	(datatranformation and -visual.)
+      + ui_menu_delete.py               # GUI of the 3. sub-menu.	(- not implemented -)
 
-      + ui_group.py		          # Enables grouped search for ID, VALUE and NAME 
+      + ui_group.py           # Enables grouped search for ID, VALUE and NAME 
 
-      + ui_save.py		          # Enables the transformation of SQLITE-files into CSV-format.
-      + ui_report.py		     # Enables the creation of "reports" in CSV-format.
-      + ui_visual.py		     # Interface for visualisation.
-      + visualization.py	          # Enables the creation of diagrams.
+      + ui_save.py            # Enables the transformation of SQLITE-files into CSV-format.
+      + ui_report.py               # Enables the creation of "reports" in CSV-format.
+      + ui_visual.py               # Interface for visualisation.
+      + visualization.py           # Enables the creation of diagrams.
 
-      + ui_existing.py		     # Lists existing files. (Available Files & Available Reports)
+      + ui_existing.py             # Lists existing files. (Available Files & Available Reports)
 
       + (ui_compare.py)            # (- has no functionality -) -> was discarded.
